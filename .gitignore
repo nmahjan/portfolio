@@ -1,0 +1,23 @@
+# macOS metadata
+.DS_Store
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and local caches
+*.log
+.cache/
+
+# Local development dependencies and build output
+node_modules/
+dist/
+build/

@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="default-src 'self'; script-src 'self'; style-src 'self'; style-src-attr 'unsafe-inline'; img-src 'self' data:; media-src 'self'; font-src 'self'; connect-src 'self'; form-action https://formspree.io; manifest-src 'self'; object-src 'none'; frame-src 'none'; worker-src 'none'; base-uri 'none'; upgrade-insecure-requests" http-equiv="Content-Security-Policy"/>
+<meta content="strict-origin-when-cross-origin" name="referrer"/>
+<meta content="#101415" name="theme-color"/>
+<meta content="Explora los proyectos de ingeniería de datos, análisis cuantitativo, IA y desarrollo full stack de Neil Mahajan, incluidos FootballMind, análisis del gasto federal y herramientas de benchmarking de IA." name="description"/>
+<meta content="proyectos de Neil Mahajan, portafolio de ingeniería de datos, análisis cuantitativo, FootballMind, panel de gasto federal, benchmarking de IA, desarrollo full stack, Python" name="keywords"/>
+<meta content="Neil Mahajan" name="author"/>
+<title>Proyectos - Portafolio de Neil Mahajan</title>
+<link href="https://nmahjan.github.io/portfolio/es/projects.html" rel="canonical"/>
+<link href="https://nmahjan.github.io/portfolio/projects.html" hreflang="en" rel="alternate"/>
+<link href="https://nmahjan.github.io/portfolio/es/projects.html" hreflang="es" rel="alternate"/>
+<link href="https://nmahjan.github.io/portfolio/fr/projects.html" hreflang="fr" rel="alternate"/>
+<link href="https://nmahjan.github.io/portfolio/projects.html" hreflang="x-default" rel="alternate"/>
+<link href="../img/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="../manifest.webmanifest" rel="manifest"/>
+<link href="../styles.css?v=20260712-2" rel="stylesheet"/>
+<script src="../theme-init.js?v=20260712-2"></script>
+</head>
+<body>
+<!-- Header Section -->
+<header>
+<div class="container">
+<div class="logo">
+<h1>Neil Mahajan</h1>
+<p class="tagline">Ingeniero de Datos y Analista Cuantitativo</p>
+</div>
+<div class="header-right">
+<nav>
+<ul>
+<li><a href="index.html">Inicio</a></li>
+<li><a class="active" href="projects.html">Proyectos</a></li>
+<li><a href="experience.html">Experiencia</a></li>
+<li><a href="about.html">Acerca de</a></li>
+<li><a href="contact.html">Contacto</a></li>
+</ul>
+</nav>
+</div>
+</div>
+</header>
+<!-- Page Title Section -->
+<section class="page-header">
+<div class="container">
+<h1>Mis proyectos</h1>
+<p class="page-subtitle">Una muestra de mi trabajo técnico y mis logros</p>
+</div>
+</section>
+<!-- Projects Grid -->
+<section class="projects-section">
+<div class="container">
+<div class="projects-detail-grid">
+<!-- Featured Project: FootballMind -->
+<article class="project-detail-card footballmind-feature spotlight-card">
+<div class="project-image-large">
+<img alt="Interfaz de FootballMind con predicciones en vivo, calibración, clasificación, partidos, rankings y cuadro del torneo" class="media-cover-soft" src="../img/footballmind.png"/>
+</div>
+<div class="project-detail-content">
+<p class="project-kicker">DESTACADO • INTELIGENCIA FUTBOLÍSTICA</p>
+<h3>FootballMind</h3>
+<div class="project-actions">
+<a class="btn btn-primary" href="https://nmahjan.github.io/footballmind" rel="noopener noreferrer" target="_blank">Abrir aplicación <span aria-hidden="true">↗</span></a>
+<a class="btn btn-secondary" href="https://github.com/nmahjan/footballmind" rel="noopener noreferrer" target="_blank">Ver código fuente</a>
+</div>
+<div class="project-meta">
+<span class="project-date"><b>FECHA</b> 2026</span>
+<span class="project-type"><b>TIPO</b> Análisis predictivo / IA</span>
+</div>
+<p class="project-description">
+                            Una plataforma conversacional de inteligencia futbolística para ocho competiciones importantes. Pregunta por un partido en lenguaje natural y recibe probabilidades de victoria, empate y derrota basadas en datos, junto con goles esperados, estado de forma, historial de enfrentamientos, alineaciones previstas y un análisis opcional redactado por IA.
+                        </p>
+<div class="project-details">
+<h4>Qué lo hace diferente:</h4>
+<ul>
+<li>Motor híbrido Elo + Dixon–Coles ajustado mediante backtesting progresivo con Ranked Probability Score</li>
+<li>Partidos en vivo, tablas, cuadros de torneos, datos de jugadores, onces previstos y calibración de confianza</li>
+<li>Seguimiento conversacional sensible a cada competición y comparaciones de jugadores en ocho competiciones</li>
+<li>Ingesta, enriquecimiento, reentrenamiento del modelo y evaluación en días de partido automatizados mediante GitHub Actions</li>
+<li>Una capa de servicios compartida disponible mediante una aplicación web React, una API REST y más de 13 herramientas MCP</li>
+</ul>
+</div>
+<div class="tech-stack">
+<h4>Desarrollado con:</h4>
+<div class="tech-badges">
+<span class="tech-badge">Python</span>
+<span class="tech-badge">React</span>
+<span class="tech-badge">Vite</span>
+<span class="tech-badge">Flask</span>
+<span class="tech-badge">PostgreSQL</span>
+<span class="tech-badge">Elo</span>
+<span class="tech-badge">Dixon–Coles</span>
+<span class="tech-badge">MCP</span>
+</div>
+</div>
+<div class="project-outcomes">
+<h4>Resultado:</h4>
+<p>Entregué un sistema de producción que abarca modelado estadístico, ingeniería de datos, herramientas para LLM y diseño de producto frontend. El modelo se reentrena y evalúa continuamente sus pronósticos para que su nivel de confianza pueda medirse, no solo afirmarse.</p>
+</div>
+</div>
+</article>
+<!-- Project 1: Federal Spending Analytics Dashboard -->
+<div class="project-detail-card spotlight-card">
+<div class="project-image-large">
+<img alt="Panel de gasto federal" class="media-cover-soft" src="../img/fed-spending-dash.png"/>
+</div>
+<div class="project-detail-content">
+<h3>Panel de análisis del gasto federal</h3>
+<div class="project-actions">
+<a class="btn btn-primary" href="https://nmahjan.github.io/federal-spending-dashboard/" rel="noopener noreferrer" target="_blank">Abrir aplicación <span aria-hidden="true">↗</span></a>
+<a class="btn btn-secondary" href="https://github.com/nmahjan/federal-spending-dashboard" rel="noopener noreferrer" target="_blank">Ver código fuente</a>
+</div>
+<div class="project-meta">
+<span class="project-date"><b>FECHA</b> 2026</span>
+<span class="project-type"><b>TIPO</b> Aplicación de datos full stack</span>
+</div>
+<p class="project-description">
+                            Desarrollé una aplicación full stack para visualizar más de 6 billones de dólares en datos del presupuesto federal de EE. UU. El panel permite explorar patrones de gasto público entre agencias, programas y años fiscales mediante gráficos interactivos y tablas de datos.
+                        </p>
+<div class="project-details">
+<h4>Características principales:</h4>
+<ul>
+<li>Integración de datos en tiempo real con la API de USAspending.gov</li>
+<li>Visualizaciones interactivas para el análisis presupuestario</li>
+<li>Filtros y análisis detallado por agencia, programa y año</li>
+<li>Diseño adaptable para computadoras y dispositivos móviles</li>
+<li>Backend con API RESTful y almacenamiento eficiente en caché</li>
+<li>Frontend moderno en React con gestión de estado</li>
+</ul>
+</div>
+<div class="tech-stack">
+<h4>Tecnologías utilizadas:</h4>
+<div class="tech-badges">
+<span class="tech-badge">Flask</span>
+<span class="tech-badge">React 19</span>
+<span class="tech-badge">Vite</span>
+<span class="tech-badge">Tailwind CSS</span>
+<span class="tech-badge">Recharts</span>
+<span class="tech-badge">Python</span>
+<span class="tech-badge">REST API</span>
+</div>
+</div>
+<div class="project-outcomes">
+<h4>Resultados:</h4>
+<p>Entregué una aplicación lista para producción que demuestra capacidades de desarrollo full stack con frameworks modernos. Procesé y visualicé con éxito enormes conjuntos de datos gubernamentales, mostrando habilidades de ingeniería de datos e integración de API. El proyecto demuestra mi capacidad para crear aplicaciones completas basadas en datos, desde el concepto hasta el despliegue.</p>
+</div>
+</div>
+</div>
+<!-- Project 2: AI Benchmark — Basketball Stats Analyzer -->
+<div class="project-detail-card">
+<div class="project-image-large">
+<img alt="Panel de benchmark de pruebas de IA" class="media-cover-soft" src="../img/ai-test.png"/>
+</div>
+<div class="project-detail-content">
+<h3>Benchmark de IA — Analizador de estadísticas de baloncesto</h3>
+<div class="project-actions">
+<a class="btn btn-primary" href="https://nmahjan.github.io/AI-Testing/" rel="noopener noreferrer" target="_blank">Abrir aplicación <span aria-hidden="true">↗</span></a>
+<a class="btn btn-secondary" href="https://github.com/nmahjan/AI-Testing" rel="noopener noreferrer" target="_blank">Ver código fuente</a>
+</div>
+<div class="project-meta">
+<span class="project-date"><b>FECHA</b> Abril de 2026</span>
+<span class="project-type"><b>TIPO</b> Comparación de herramientas de IA / Full stack</span>
+</div>
+<p class="project-description">
+                            Comparación directa de 6 herramientas de programación con IA —BMAD v4, Traycer, Amp, Superpowers, Ralph y BMAD v6—, cada una encargada de crear desde cero una aplicación Flask idéntica de estadísticas de baloncesto. Evalué la calidad y corrección del código y la experiencia de desarrollo con una rúbrica estandarizada. Construí un panel interactivo que permite comparar lado a lado el resultado en vivo de cada herramienta.
+                        </p>
+<div class="project-details">
+<h4>Características principales:</h4>
+<ul>
+<li>6 aplicaciones Flask creadas de forma independiente y ejecutadas en puertos aislados (8080–8085)</li>
+<li>Rúbrica estandarizada que abarca corrección, calidad del código y UX</li>
+<li>Panel interactivo con iframes para comparaciones lado a lado</li>
+<li>Canal automatizado de prerenderizado estático que despliega todas las aplicaciones en GitHub Pages</li>
+<li>Diseño adaptable a móviles en el selector y en todas las páginas de herramientas</li>
+<li>Flujo de CI/CD mediante GitHub Actions para despliegue continuo</li>
+</ul>
+</div>
+<div class="tech-stack">
+<h4>Tecnologías utilizadas:</h4>
+<div class="tech-badges">
+<span class="tech-badge">Python</span>
+<span class="tech-badge">Flask</span>
+<span class="tech-badge">pandas</span>
+<span class="tech-badge">HTML/CSS</span>
+<span class="tech-badge">JavaScript</span>
+<span class="tech-badge">GitHub Pages</span>
+<span class="tech-badge">GitHub Actions</span>
+</div>
+</div>
+<div class="project-outcomes">
+<h4>Resultados:</h4>
+<p>Superpowers obtuvo la puntuación más alta (35/40), seguido de Traycer y Amp, empatados con 32. BMAD v4 y BMAD v6 obtuvieron 30, mientras que Ralph no logró producir una aplicación funcional (8/40). El panel en vivo permite explorar al instante el resultado de cada herramienta y ofrece una referencia transparente y reproducible para evaluar flujos de desarrollo asistidos por IA.</p>
+</div>
+</div>
+</div>
+<!-- Project 3: Olympic Medal Performance Analysis -->
+<div class="project-detail-card">
+<div class="project-image-large">
+<div class="placeholder-text">Visualización del análisis de datos olímpicos</div>
+</div>
+<div class="project-detail-content">
+<h3>Análisis del rendimiento olímpico por medallas</h3>
+<div class="project-actions">
+<a class="btn btn-secondary" href="https://github.com/nmahjan/olympic-medal-performance-analysis" rel="noopener noreferrer" target="_blank">Ver código fuente</a>
+</div>
+<div class="project-meta">
+<span class="project-date"><b>FECHA</b> 2025</span>
+<span class="project-type"><b>TIPO</b> Análisis de series temporales y modelado estadístico</span>
+</div>
+<p class="project-description">
+                            Realicé un análisis exhaustivo de series temporales y modelado estadístico con más de 50 años de datos de los Juegos Olímpicos. Analicé patrones de distribución de medallas, tendencias de rendimiento por país y datos demográficos de atletas para descubrir claves sobre la excelencia deportiva mundial.
+                        </p>
+<div class="project-details">
+<h4>Características principales:</h4>
+<ul>
+<li>Análisis de series temporales de más de 50 años de historia olímpica</li>
+<li>Análisis y pronóstico de tendencias de medallas por país</li>
+<li>Pruebas de hipótesis estadísticas para patrones de rendimiento</li>
+<li>Ingeniería de características para modelado predictivo</li>
+<li>Visualizaciones interactivas con matplotlib y seaborn</li>
+<li>Canal integral de limpieza y preprocesamiento de datos</li>
+</ul>
+</div>
+<div class="tech-stack">
+<h4>Tecnologías utilizadas:</h4>
+<div class="tech-badges">
+<span class="tech-badge">Python</span>
+<span class="tech-badge">pandas</span>
+<span class="tech-badge">NumPy</span>
+<span class="tech-badge">matplotlib</span>
+<span class="tech-badge">seaborn</span>
+<span class="tech-badge">Análisis de series temporales</span>
+<span class="tech-badge">Ingeniería de características</span>
+</div>
+</div>
+<div class="project-outcomes">
+<h4>Resultados:</h4>
+<p>Identifiqué con éxito factores clave del éxito olímpico, como el PIB, la población y el rendimiento histórico. Desarrollé modelos predictivos precisos para el recuento de medallas. El proyecto demuestra dominio del análisis de series temporales, el modelado estadístico y las bibliotecas de ciencia de datos de Python.</p>
+</div>
+</div>
+</div>
+<!-- Project 4: Portfolio Website -->
+<div class="project-detail-card">
+<div class="project-image-large">
+<img alt="Captura del sitio web del portafolio" class="media-cover-soft" src="../img/portfolio-screen.png?v=emerald-quant-20260712"/>
+</div>
+<div class="project-detail-content">
+<h3>Sitio web de portafolio profesional</h3>
+<div class="project-meta">
+<span class="project-date"><b>FECHA</b> Otoño de 2024</span>
+<span class="project-type"><b>TIPO</b> Desarrollo web</span>
+</div>
+<p class="project-description">
+                            Diseñé y desarrollé un sitio web integral de portafolio personal para presentar mi trabajo profesional, habilidades técnicas y trayectoria. Incluye diseño adaptable, demostraciones integradas de proyectos y una organización profesional del contenido para atraer a posibles empleadores y colaboradores.
+                        </p>
+<div class="project-details">
+<h4>Características principales:</h4>
+<ul>
+<li>Sitio adaptable de cinco páginas (Inicio, Proyectos, Experiencia, Acerca de y Contacto)</li>
+<li>Paleta de colores personalizada con variables CSS para facilitar la gestión del tema</li>
+<li>Demostraciones en video integradas de proyectos clave</li>
+<li>Tabla de experiencia profesional con historial laboral detallado</li>
+<li>Formulario de contacto con validación para consultas profesionales</li>
+<li>Diseño adaptable mobile-first para todos los tamaños de pantalla</li>
+<li>Animaciones fluidas y efectos al pasar el cursor para mejorar la UX</li>
+</ul>
+</div>
+<div class="tech-stack">
+<h4>Tecnologías utilizadas:</h4>
+<div class="tech-badges">
+<span class="tech-badge">HTML5</span>
+<span class="tech-badge">CSS3</span>
+<span class="tech-badge">Responsive Design</span>
+<span class="tech-badge">Flexbox &amp; Grid</span>
+<span class="tech-badge">CSS Variables</span>
+<span class="tech-badge">GitHub Pages</span>
+</div>
+</div>
+<div class="project-outcomes">
+<h4>Resultados:</h4>
+<p>Desplegué con éxito un sitio de portafolio profesional que presenta eficazmente mis capacidades técnicas y experiencia en proyectos. Logré sólidas métricas de rendimiento mediante recursos optimizados y código limpio. El sitio funciona como un currículum digital que ofrece a reclutadores y posibles colaboradores una visión completa de mi trabajo y capacidades. Demuestra dominio de prácticas modernas de desarrollo web, principios de diseño UI/UX y atención a una presentación profesional.</p>
+</div>
+</div>
+</div>
+<!-- Project 5: Heart Disease Analysis -->
+<div class="project-detail-card">
+<div class="project-video">
+<video controls="" poster="../img/headshot.jpg">
+<source src="../img/rlabproj1.mp4" type="video/mp4"/>
+                            Tu navegador no admite la etiqueta de video.
+                        </video>
+</div>
+<div class="project-detail-content">
+<h3>Análisis del riesgo de cardiopatía en R</h3>
+<div class="project-actions">
+<a class="btn btn-secondary" href="https://github.com/nmahjan/heart-disease-analysis" rel="noopener noreferrer" target="_blank">Ver código fuente</a>
+</div>
+<div class="project-meta">
+<span class="project-date"><b>FECHA</b> Otoño de 2024</span>
+<span class="project-type"><b>TIPO</b> Ciencia de datos y análisis estadístico</span>
+</div>
+<p class="project-description">
+                            Proyecto integral de análisis estadístico de factores de riesgo cardiovascular con el conjunto de datos UCI Heart Disease (1.025 registros de pacientes). Desarrollé modelos predictivos para identificar pacientes de alto riesgo y analicé indicadores clínicos clave asociados con el diagnóstico de cardiopatías.
+                        </p>
+<div class="project-details">
+<h4>Características principales:</h4>
+<ul>
+<li>Canal completo de preprocesamiento y limpieza de datos para 14 variables clínicas</li>
+<li>Análisis exploratorio con visualizaciones profesionales mediante ggplot2</li>
+<li>Modelo de regresión logística con 84,8 % de precisión y una puntuación AUC de 0,93</li>
+<li>Análisis de correlación que identifica factores de riesgo clave (tipo de dolor torácico, depresión ST y número de vasos)</li>
+<li>Pruebas de significancia estadística (t de Student y chi-cuadrado) para patrones demográficos</li>
+<li>Informe completo en R Markdown con análisis reproducible</li>
+</ul>
+</div>
+<div class="tech-stack">
+<h4>Tecnologías utilizadas:</h4>
+<div class="tech-badges">
+<span class="tech-badge">R</span>
+<span class="tech-badge">R Studio</span>
+<span class="tech-badge">ggplot2</span>
+<span class="tech-badge">dplyr</span>
+<span class="tech-badge">caret</span>
+<span class="tech-badge">corrplot</span>
+<span class="tech-badge">R Markdown</span>
+</div>
+</div>
+<div class="project-outcomes">
+<h4>Resultados y conclusiones:</h4>
+<p>Identifiqué que los hombres presentan una prevalencia de cardiopatía significativamente mayor que las mujeres y que el dolor torácico asintomático muestra la asociación más fuerte con la enfermedad. El modelo predictivo logró métricas sólidas (&gt;80 % de precisión, AUC de 0,93), lo que demuestra su potencial para la evaluación de riesgo clínico. El análisis reveló que la frecuencia cardíaca máxima y la depresión ST son indicadores diagnósticos críticos. El proyecto demostró dominio del modelado estadístico, la visualización de datos y el análisis de datos médicos.</p>
+</div>
+</div>
+</div>
+<!-- Project 6: Chat Application -->
+<div class="project-detail-card">
+<div class="project-video">
+<video controls="">
+<source src="../img/chatroom.mp4" type="video/mp4"/>
+                            Tu navegador no admite la etiqueta de video.
+                        </video>
+</div>
+<div class="project-detail-content">
+<h3>Aplicación de chat en tiempo real</h3>
+<div class="project-meta">
+<span class="project-date"><b>FECHA</b> Primavera de 2024</span>
+<span class="project-type"><b>TIPO</b> Desarrollo full stack (CSE 205)</span>
+</div>
+<p class="project-description">
+                            Desarrollé una completa aplicación de chat en tiempo real con autenticación de usuarios, varias salas y mensajería instantánea. Creada como proyecto final de CSE 205, demuestra dominio de la programación orientada a objetos, las estructuras de datos y el diseño de interfaces.
+                        </p>
+<div class="project-details">
+<h4>Características principales:</h4>
+<ul>
+<li>Creación de cuentas y sistema de autenticación seguro</li>
+<li>Creación y acceso a varias salas para organizar conversaciones</li>
+<li>Entrega de mensajes en tiempo real entre usuarios</li>
+<li>Interfaz gráfica accesible con navegación intuitiva</li>
+<li>Persistencia del historial de mensajes</li>
+<li>Compatibilidad con conexiones simultáneas de varios usuarios</li>
+</ul>
+</div>
+<div class="tech-stack">
+<h4>Tecnologías utilizadas:</h4>
+<div class="tech-badges">
+<span class="tech-badge">Java</span>
+<span class="tech-badge">JavaFX / Swing</span>
+<span class="tech-badge">Socket Programming</span>
+<span class="tech-badge">Multi-threading</span>
+<span class="tech-badge">Estructuras de datos</span>
+<span class="tech-badge">OOP</span>
+</div>
+</div>
+<div class="project-outcomes">
+<h4>Resultados:</h4>
+<p>Implementé con éxito una aplicación de chat plenamente funcional, con gestión robusta de usuarios y comunicación en tiempo real. Demostré un sólido conocimiento de redes, programación concurrente con hilos y desarrollo de interfaces gráficas. Recibí excelentes comentarios del instructor sobre la organización del código y la implementación de funciones. El proyecto mostró mi capacidad para diseñar y crear aplicaciones completas, desde los requisitos hasta el despliegue.</p>
+</div>
+</div>
+</div>
+<!-- Project 7: Python Automation Script -->
+<div class="project-detail-card">
+<div class="project-image-large">
+<div class="placeholder-text">Diagrama de flujo del script de Python</div>
+</div>
+<div class="project-detail-content">
+<h3>Script automatizado de organización de datos</h3>
+<div class="project-meta">
+<span class="project-date"><b>FECHA</b> Verano de 2024</span>
+<span class="project-type"><b>TIPO</b> Automatización de procesos - Proyecto de prácticas</span>
+</div>
+<p class="project-description">
+                            Durante mis prácticas desarrollé un script inteligente de automatización en Python que transformó los flujos de organización de datos. El script extrae nombres de ubicaciones específicas, clasifica archivos adicionales según criterios de coincidencia y organiza todo sistemáticamente, ahorrando unas 2 semanas de trabajo manual por ciclo.
+                        </p>
+<div class="project-details">
+<h4>Características principales:</h4>
+<ul>
+<li>Extracción automática de nombres desde estructuras de directorios designadas</li>
+<li>Algoritmo inteligente de coincidencia de patrones para identificar archivos relacionados</li>
+<li>Análisis multifactorial de similitud (patrones de nombres, fechas y metadatos)</li>
+<li>Procesamiento por lotes de cientos de archivos simultáneamente</li>
+<li>Sistema integral de gestión de errores y registros</li>
+<li>Comprobaciones para garantizar una clasificación precisa</li>
+<li>Generación de informes CSV para auditoría y verificación</li>
+</ul>
+</div>
+<div class="tech-stack">
+<h4>Tecnologías utilizadas:</h4>
+<div class="tech-badges">
+<span class="tech-badge">Python 3</span>
+<span class="tech-badge">pandas</span>
+<span class="tech-badge">os/pathlib</span>
+<span class="tech-badge">Regular Expressions</span>
+<span class="tech-badge">File I/O</span>
+<span class="tech-badge">Error Handling</span>
+</div>
+</div>
+<div class="project-outcomes">
+<h4>Impacto empresarial:</h4>
+<p>Reduje el tiempo de organización de datos de 2 semanas a unas 2 horas por ciclo, un ahorro del 98 %. Eliminé el error humano en la clasificación de archivos y mejoré la precisión de aproximadamente un 85 % a un 99,5 %. En el despliegue inicial se procesaron más de 1.000 archivos sin errores. El equipo adoptó el script como flujo estándar y sigue ahorrando más de 80 horas mensuales de trabajo manual. Recibí un reconocimiento del supervisor por la solución innovadora y las mejoras medibles de eficiencia. El proyecto demostró mi capacidad para identificar oportunidades de automatización y entregar soluciones listas para producción con gran valor empresarial.</p>
+</div>
+</div>
+</div>
+<!-- Project 8: Workplace Absenteeism Analytics -->
+<div class="project-detail-card">
+<div class="project-image-large">
+<div class="placeholder-text">Gráficos del análisis de absentismo</div>
+</div>
+<div class="project-detail-content">
+<h3>Análisis del absentismo laboral</h3>
+<div class="project-meta">
+<span class="project-date"><b>FECHA</b> 2024</span>
+<span class="project-type"><b>TIPO</b> Análisis estadístico y pruebas de hipótesis</span>
+</div>
+<p class="project-description">
+                            Utilicé R y pruebas de hipótesis estadísticas para evaluar el efecto de factores demográficos, hábitos de salud y condiciones laborales en la asistencia. Aporté conclusiones prácticas para reducir el absentismo y mejorar la productividad.
+                        </p>
+<div class="project-details">
+<h4>Características principales:</h4>
+<ul>
+<li>Pruebas exhaustivas de hipótesis (t de Student, chi-cuadrado y ANOVA)</li>
+<li>Análisis del efecto demográfico en los patrones de asistencia</li>
+<li>Estudios de correlación de hábitos de salud</li>
+<li>Modelado de regresión multivariante</li>
+<li>Recomendaciones basadas en datos para políticas de RR. HH.</li>
+<li>Informes profesionales en R Markdown</li>
+</ul>
+</div>
+<div class="tech-stack">
+<h4>Tecnologías utilizadas:</h4>
+<div class="tech-badges">
+<span class="tech-badge">R</span>
+<span class="tech-badge">R Studio</span>
+<span class="tech-badge">Pruebas de hipótesis</span>
+<span class="tech-badge">ggplot2</span>
+<span class="tech-badge">dplyr</span>
+<span class="tech-badge">Statistical Modeling</span>
+</div>
+</div>
+<div class="project-outcomes">
+<h4>Resultados:</h4>
+<p>Identifiqué factores estadísticamente significativos que afectan la asistencia, como la distancia de traslado, las condiciones de salud y la carga de trabajo. Propuse recomendaciones basadas en evidencia para reducir el absentismo. Demostré sólidas habilidades de análisis estadístico y capacidad para convertir conclusiones de datos en recomendaciones empresariales.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Call to Action -->
+<section class="cta">
+<div class="container">
+<h2>¿Te interesa trabajar conmigo?</h2>
+<p>Hablemos de cómo puedo contribuir a tu equipo</p>
+<a class="btn btn-primary" href="contact.html">Ponte en contacto</a>
+</div>
+</section>
+<!-- Footer -->
+<footer>
+<div class="container">
+<div class="footer-content">
+<div class="footer-links">
+<a href="index.html">Inicio</a>
+<a href="projects.html">Proyectos</a>
+<a href="experience.html">Experiencia</a>
+<a href="about.html">Acerca de</a>
+<a href="contact.html">Contacto</a>
+<a href="privacy.html">Privacidad</a>
+</div>
+<div class="social-links">
+<a href="https://www.linkedin.com/in/neil-mahajan-0700271b6/" rel="noopener noreferrer" target="_blank" title="LinkedIn">LinkedIn</a>
+<a href="https://github.com/nmahjan" rel="noopener noreferrer" target="_blank" title="GitHub">GitHub</a>
+<a href="mailto:nm.oh.usa@gmail.com" title="Correo electrónico">Correo electrónico</a>
+</div>
+<p class="copyright">© 2026 Neil Mahajan. Todos los derechos reservados.</p>
+</div>
+</div>
+</footer>
+<script src="../ui.js?v=20260712-2"></script>
+</body>
+</html>
