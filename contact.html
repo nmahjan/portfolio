@@ -3,11 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Contact Neil Mahajan for software development opportunities, collaborations, or general inquiries. Get in touch via email at nm.oh.usa@gmail.com.">
-    <meta name="keywords" content="contact Neil Mahajan, software developer contact, hire developer, collaboration opportunities">
+    <meta name="description" content="Contact Neil Mahajan about data engineering, quantitative analysis, software development opportunities, or project collaborations.">
+    <meta name="keywords" content="contact Neil Mahajan, data engineer, quantitative analyst, software development, collaboration opportunities">
     <meta name="author" content="Neil Mahajan">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; style-src-attr 'unsafe-inline'; img-src 'self' data:; media-src 'self'; font-src 'self'; connect-src 'self'; form-action https://formspree.io; manifest-src 'self'; object-src 'none'; frame-src 'none'; worker-src 'none'; base-uri 'none'; upgrade-insecure-requests">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta name="theme-color" content="#101415">
     <title>Contact - Neil Mahajan Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="canonical" href="https://nmahjan.github.io/portfolio/contact.html">
+    <link rel="alternate" hreflang="en" href="https://nmahjan.github.io/portfolio/contact.html">
+    <link rel="alternate" hreflang="es" href="https://nmahjan.github.io/portfolio/es/contact.html">
+    <link rel="alternate" hreflang="fr" href="https://nmahjan.github.io/portfolio/fr/contact.html">
+    <link rel="alternate" hreflang="x-default" href="https://nmahjan.github.io/portfolio/contact.html">
+    <link rel="stylesheet" href="styles.css?v=20260712-2">
+    <script src="theme-init.js?v=20260712-2"></script>
 </head>
 <body>
     <!-- Header Section -->
@@ -18,11 +29,6 @@
                 <p class="tagline">Data Engineer & Quantitative Analyst</p>
             </div>
             <div class="header-right">
-                <div class="language-selector">
-                    <button class="lang-btn">EN</button>
-                    <button class="lang-btn">ES</button>
-                    <button class="lang-btn">FR</button>
-                </div>
                 <nav>
                     <ul>
                         <li><a href="index.html">Home</a></li>
@@ -65,17 +71,17 @@
                 </div>
 
                 <div class="contact-method-card">
-                    <div class="method-icon">💼</div>
+                    <div class="method-icon">01</div>
                     <h3>LinkedIn</h3>
                     <p>Professional networking</p>
-                    <a href="https://www.linkedin.com/in/neil-mahajan-0700271b6/" target="_blank" class="contact-link">Connect on LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/neil-mahajan-0700271b6/" target="_blank" rel="noopener noreferrer" class="contact-link">Connect on LinkedIn</a>
                 </div>
 
                 <div class="contact-method-card">
-                    <div class="method-icon">💻</div>
+                    <div class="method-icon">02</div>
                     <h3>GitHub</h3>
                     <p>Check out my code</p>
-                    <a href="https://github.com/nmahjan" target="_blank" class="contact-link">View GitHub Profile</a>
+                    <a href="https://github.com/nmahjan" target="_blank" rel="noopener noreferrer" class="contact-link">View GitHub Profile</a>
                 </div>
             </div>
         </div>
@@ -94,17 +100,18 @@
                 <form action="https://formspree.io/f/mojpzekk" method="POST" class="contact-form">
                     <!-- Formspree: sets the email subject line -->
                     <input type="hidden" name="_subject" value="New Portfolio Contact Form Submission">
+                    <input type="text" name="_gotcha" class="form-honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
 
                     <div class="form-row">
                         <div class="form-group">
                             <label for="firstName">First Name *</label>
-                            <input type="text" id="firstName" name="firstName" required 
+                            <input type="text" id="firstName" name="firstName" required autocomplete="given-name" maxlength="80"
                                    placeholder="Enter your first name">
                         </div>
 
                         <div class="form-group">
                             <label for="lastName">Last Name *</label>
-                            <input type="text" id="lastName" name="lastName" required 
+                            <input type="text" id="lastName" name="lastName" required autocomplete="family-name" maxlength="80"
                                    placeholder="Enter your last name">
                         </div>
                     </div>
@@ -112,13 +119,13 @@
                     <div class="form-group">
                         <label for="email">Email Address *</label>
                         <!-- Formspree uses this field as the reply-to address -->
-                        <input type="email" id="email" name="_replyto" required 
+                        <input type="email" id="email" name="_replyto" required autocomplete="email" maxlength="254"
                                placeholder="your.email@example.com">
                     </div>
 
                     <div class="form-group">
                         <label for="phone">Phone Number (Optional)</label>
-                        <input type="tel" id="phone" name="phone" 
+                        <input type="tel" id="phone" name="phone" autocomplete="tel" maxlength="30"
                                placeholder="(123) 456-7890">
                     </div>
 
@@ -136,13 +143,8 @@
 
                     <div class="form-group">
                         <label for="message">Message *</label>
-                        <textarea id="message" name="message" rows="6" required 
+                        <textarea id="message" name="message" rows="6" required minlength="10" maxlength="4000"
                                   placeholder="Tell me about your inquiry..."></textarea>
-                    </div>
-
-                    <div class="form-group checkbox-group">
-                        <input type="checkbox" id="copyMe" name="copyMe">
-                        <label for="copyMe">Send me a copy of this message</label>
                     </div>
 
                     <div class="form-actions">
@@ -151,6 +153,7 @@
                     </div>
 
                     <p class="form-note">* Required fields</p>
+                    <p class="form-note">By submitting this form, you agree that your information will be processed by Formspree so I can respond to your inquiry. See the <a href="privacy.html">Privacy Notice</a>.</p>
                 </form>
             </div>
         </div>
@@ -198,15 +201,17 @@
                     <a href="experience.html">Experience</a>
                     <a href="about.html">About</a>
                     <a href="contact.html">Contact</a>
+                    <a href="privacy.html">Privacy</a>
                 </div>
                 <div class="social-links">
-                    <a href="https://www.linkedin.com/in/neil-mahajan-0700271b6/" target="_blank" title="LinkedIn">LinkedIn</a>
-                    <a href="https://github.com/nmahjan" target="_blank" title="GitHub">GitHub</a>
+                    <a href="https://www.linkedin.com/in/neil-mahajan-0700271b6/" target="_blank" rel="noopener noreferrer" title="LinkedIn">LinkedIn</a>
+                    <a href="https://github.com/nmahjan" target="_blank" rel="noopener noreferrer" title="GitHub">GitHub</a>
                     <a href="mailto:nm.oh.usa@gmail.com" title="Email">Email</a>
                 </div>
-                <p class="copyright">&copy; 2025 Neil Mahajan. All Rights Reserved.</p>
+                <p class="copyright">&copy; 2026 Neil Mahajan. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
+    <script src="ui.js?v=20260712-2"></script>
 </body>
 </html>

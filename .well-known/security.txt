@@ -1,0 +1,5 @@
+Contact: mailto:nm.oh.usa@gmail.com
+Preferred-Languages: en, es, fr
+Canonical: https://nmahjan.github.io/portfolio/.well-known/security.txt
+Expires: 2027-07-12T23:59:59Z
+Policy: https://nmahjan.github.io/portfolio/privacy.html
